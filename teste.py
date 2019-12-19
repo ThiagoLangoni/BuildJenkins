@@ -7,7 +7,7 @@ app = Flask(__name__)
 # default route
 @app.route('/')
 def index():
-    return 'Build via Jenkins via click a véi automatico'
+    return 'Build via Jenkins via click a mony'
 
 # function for responses
 def results():
