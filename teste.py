@@ -7,7 +7,7 @@ app = Flask(__name__)
 # default route
 @app.route('/')
 def index():
-    return 'Build via Jenkins via CI/CD'
+    return 'Build via Jenkins via CI/CD ;)'
 
 # run the app
 if __name__ == '__main__':
